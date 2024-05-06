@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="383" height="138" viewBox="0 0 383 138">
+  <g id="google_play" data-name="google play" transform="translate(-572 -818)">
+    <path id="Background" d="M572,826a8,8,0,0,1,8-8H947a8,8,0,0,1,8,8V948a8,8,0,0,1-8,8H580a8,8,0,0,1-8-8Z" fill="#fff" opacity="0.451"/>
+    <g id="headline" transform="translate(-44)">
+      <text id="Get_It_On" data-name="Get It On" transform="translate(655 870)" fill="#fff" font-size="20" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Get It On</tspan></text>
+      <text id="Google_Play-2" data-name="Google Play" transform="translate(655 911.6)" fill="#fff" font-size="36" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Google Play</tspan></text>
+    </g>
+    <g id="icon">
+      <path id="play_arrow" d="M863.882,900.409V873.591a2.455,2.455,0,0,1,.777-1.846,2.541,2.541,0,0,1,1.814-.745,2.594,2.594,0,0,1,.68.1,2.686,2.686,0,0,1,.68.292L888.951,884.8a2.507,2.507,0,0,1,.875.971,2.745,2.745,0,0,1,0,2.461,2.509,2.509,0,0,1-.875.972l-21.117,13.409a2.7,2.7,0,0,1-.68.291,2.571,2.571,0,0,1-.68.1,2.538,2.538,0,0,1-1.814-.745A2.454,2.454,0,0,1,863.882,900.409Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

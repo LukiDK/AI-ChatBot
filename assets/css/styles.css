@@ -2,7 +2,7 @@
 
 header {
   color: white;
-  padding: 2rem;
+  padding: 0 2rem 9rem;
   display: flex;
   max-width: 1440px;
   margin: 0 auto;
@@ -18,7 +18,7 @@ header .container {
 header img {
   width: 500px;
   height: 500px;
-margin-left: 40px;
+  margin-left: 40px;
 }
 
 .yellow-p {
@@ -35,4 +35,56 @@ header h1 {
 header p {
   font-size: 1.8rem;
   font-weight: 400;
+}
+
+.download {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 2rem 11rem;
+  gap: 2.2rem;
+  align-items: center;
+  color: white;
+}
+
+.download h2:first-child {
+  margin-right: auto;
+  font-size: 3.8rem;
+  font-weight: 700;
+  max-width: 400px;
+  color: #e6ff84;
+}
+
+.question {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question .quiz-text {
+  display: flex;
+  flex-direction: column;
+margin-top: 2rem;
+  max-width: 600px;
+  color: white;
+  padding-left: 2rem;
+}
+
+.question h2 {
+  font-size: 8.4rem;
+  font-weight: 700;
+  color: #e6ff84;
+}
+
+.question h3 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.question p {
+  font-size: 1.8rem;
+  font-weight: 500;
 }
