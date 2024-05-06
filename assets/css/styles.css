@@ -66,7 +66,7 @@ header p {
 .question .quiz-text {
   display: flex;
   flex-direction: column;
-margin-top: 2rem;
+  margin-top: 2rem;
   max-width: 600px;
   color: white;
   padding-left: 2rem;
@@ -87,4 +87,56 @@ margin-top: 2rem;
 .question p {
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.needs {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem 15rem;
+  color: white;
+}
+
+.needs-text {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.needs-text h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.needs-text p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.needs .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background: #5271FF;
+    border-radius: 1rem;
+    padding: 4rem;
+    max-width: 420px;
+}
+
+.card img {
+    padding-bottom: 3.6rem;
+}
+
+.card h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 1.1rem;
+    font-weight: 400;
 }
