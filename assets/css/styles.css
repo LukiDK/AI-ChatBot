@@ -77,6 +77,25 @@ header p {
   justify-content: space-between;
 }
 
+.quiz-img img:nth-child(1) {
+  margin-bottom: 1rem;
+  animation: text-box 3s infinite;
+}
+
+.quiz-img img:nth-child(2) {
+  margin-left: 5rem;
+  animation: text-box 3s infinite;
+}
+
+@keyframes text-box {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .question .quiz-text {
   display: flex;
   flex-direction: column;
