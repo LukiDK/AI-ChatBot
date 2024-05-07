@@ -6,6 +6,7 @@ header {
   display: flex;
   max-width: 1440px;
   margin: 0 auto;
+  gap: 2rem;
 }
 
 header .container {
@@ -15,10 +16,23 @@ header .container {
   max-width: 800px;
 }
 
-header img {
-  width: 500px;
-  height: 500px;
-  margin-left: 40px;
+header .circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #e6ff84;
+  animation: cirlce-anim 4s infinite;
+  margin-left: 50px;
+}
+
+@keyframes cirlce-anim {
+  0% {
+    box-sizing: 0px 0px 0px 0px #312272, 0px 0px 0px 0px #241660;
+  }
+  50% {
+    box-shadow: 0px 0px 0px 20px #312272, 0px 0px 0px 40px #241660;
+    scale: 1.1;
+  }
 }
 
 .yellow-p {
@@ -58,7 +72,7 @@ header p {
 .question {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 2rem 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -110,33 +124,34 @@ header p {
 .needs-text p {
   font-size: 1.8rem;
   font-weight: 500;
+  margin-bottom: 3rem;
 }
 
 .needs .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .card {
-    background: #5271FF;
-    border-radius: 1rem;
-    padding: 4rem;
-    max-width: 420px;
+  background: #5271ff;
+  border-radius: 1rem;
+  padding: 4rem;
+  max-width: 420px;
 }
 
 .card img {
-    padding-bottom: 3.6rem;
+  padding-bottom: 3.6rem;
 }
 
 .card h3 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    margin-bottom: 5px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .card p {
-    font-size: 1.1rem;
-    font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
