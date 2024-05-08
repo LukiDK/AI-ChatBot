@@ -1,4 +1,5 @@
 @import url(/assets/css/nav.css);
+@import url(/assets/css/print.css);
 
 header {
   color: white;
