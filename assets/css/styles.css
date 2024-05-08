@@ -175,3 +175,40 @@ header p {
   font-size: 1.1rem;
   font-weight: 400;
 }
+
+.try {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem 15rem;
+  color: white;
+  display: flex;
+}
+
+.try .figure {
+  background-color: #e6ff84;
+  height: 450px;
+  width: 100%;
+}
+
+.upgrade {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 9.5rem 9rem;
+  margin-bottom: 5rem;
+  color: white;
+  background-color: #5271ff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.upgrade article {
+  max-width: 520px;
+}
+
+.figure2 {
+  background-color: #e6ff84;
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+}
